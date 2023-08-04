@@ -8,3 +8,4 @@ A lógica aqui é que quando você acessar "encurtador.php", ele exibirá um for
 Quando alguém acessar o link encurtado, como "localhost/encurtador/redirecionar.php?id=ased", o arquivo "redirecionar.php" decodificará o ID, pesquisará no arquivo "links.json" e redirecionará para o link original correspondente se encontrar uma correspondência. Caso não encontre uma correspondência, ele redirecionará para "encurtador.php" novamente.
 
 Lembre-se de que esta é uma implementação simples para fins educacionais. Em uma aplicação real, você deve considerar adicionar mais segurança, como evitar a inserção de links maliciosos ou o uso de ID duplicados. Além disso, você pode usar um banco de dados em vez de um arquivo JSON para melhor escalabilidade.
+"estatisticas.php" Este código PHP é responsável por exibir as estatísticas quando é colocado "+" no final da URL. 
